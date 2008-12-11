@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+<title>jquery.rack</title>
+<link rel="stylesheet" type="text/css" href="index.css"/>
+<style type="text/css">
+#rack {
+	display: block;
+	width: 500px;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+}
+#rack li {
+	display: inline;
+}
+
+img {
+	border: none;
+}
+</style>
+</head>
+
+<body>
+<div class="head">
+	<h1>jquery.rack</h1>
+	<p>A interface like a iTunes' Grid View.</p>
+</div>
+
+<div class="section">
+<ul id="rack">
+	<li><a href="http://www.flickr.com/photos/clothfairy/3035796724/"><img width="500" height="500" alt="" src="http://farm4.static.flickr.com/3169/3035796724_b66fcf7446.jpg"/></a></li>
+	<li><a href="http://www.flickr.com/photos/clothfairy/3035795700/"><img width="500" height="500" alt="" src="http://farm4.static.flickr.com/3174/3035795700_8095a72d70.jpg"/></a></li>
+	<li><a href="http://www.flickr.com/photos/clothfairy/3034958921/"><img width="500" height="500" alt="" src="http://farm4.static.flickr.com/3225/3034958921_e1ff9a10ec.jpg"/></a></li>
+	<li><a href="http://www.flickr.com/photos/clothfairy/3034957881/"><img width="500" height="500" alt="" src="http://farm4.static.flickr.com/3071/3034957881_3ebf16ea90.jpg"/></a></li>
+</ul>
+</div>
+
+<div class="foot">
+	<p><a href="http://carbonfairy.org/">carbonfairy</a> | <a href="http://codefairy.org/">codefairy</a></p>
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.rack.js"></script>
+<script type="text/javascript">
+$('#rack').rack();
+</script>
+</body>
+</html>
