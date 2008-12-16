@@ -1,0 +1,13 @@
+jquery.rack.js
+
+
+Replace the <ul> list to grid view interface:
+
+<ul id="rack">
+	<li><a href="1"><img src="1.png"/></a></li>
+	<li><a href="2"><img src="2.png"/></a></li>
+	<li><a href="3"><img src="3.png"/></a></li>
+</ul>
+<script type="text/javascript">
+$('#rack').rack();
+</script>
