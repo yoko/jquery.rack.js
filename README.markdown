@@ -34,7 +34,7 @@ Replace the &lt;ul&gt; list to grid view interface:
 - Initial release
 
 ## Authors
-- [yksk](http://twitter.com/yksk) <<yoko@carbonfairy.org>>
+- [yksk](http://twitter.com/yksk) <yoko@carbonfairy.org>
 
 ## License
 The MIT License
