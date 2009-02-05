@@ -29,6 +29,7 @@ Replace the &lt;ul&gt; list to grid view interface:
   - Simply
   - Faster on IE
 - Add Test (using [QUnit](http://docs.jquery.com/QUnit))
+- return this;
 
 ### 0.1
 - Initial release
